@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Bites - Food Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍕 Quick Bites</h1>
+        <p>Order food in 30 minutes!</p>
+    </header>
+    
+    <main>
+        <section class="menu">
+            <h2>Today's Menu</h2>
+            <div class="menu-items">
+                <div class="item">Pizza - ₹299</div>
+                <div class="item">Burger - ₹199</div>
+                <div class="item">Noodles - ₹149</div>
+            </div>
+        </section>
+        
+        <section class="order-form">
+            <h2>Place Order</h2>
+            <form id="orderForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="items" placeholder="Items (e.g., Pizza, Burger)" required>
+                <button type="submit">Order Now</button>
+            </form>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

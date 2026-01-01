@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+header { text-align: center; background: #ff6b35; color: white; padding: 20px; }
+.menu-items { display: flex; gap: 20px; flex-wrap: wrap; }
+.item { background: #f0f0f0; padding: 15px; border-radius: 8px; }
+.order-form { margin-top: 30px; }
+input, button { display: block; width: 100%; padding: 12px; margin: 10px 0; }
+button { background: #ff6b35; color: white; border: none; cursor: pointer; }
