@@ -8,12 +8,14 @@ header {
 }
 .menu-items { display: flex; gap: 20px; flex-wrap: wrap; }
 .item {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease;
+  background: linear-gradient(180deg, #ffffff, #fff7f2);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
 }
+
 
 .item:hover {
   transform: translateY(-5px);
